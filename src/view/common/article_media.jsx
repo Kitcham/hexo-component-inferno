@@ -40,7 +40,7 @@ module.exports = class extends Component {
         {thumbnail ? (
           <a href={url} class="media-left">
             <p class="image is-64x64">
-              <img class="fill" src={thumbnail} alt={title} />
+              <img class="fill lazyload" data-original={thumbnail} alt={title} />
             </p>
           </a>
         ) : null}

@@ -1,9 +1,7 @@
 name: GitHub Release
 
 on:
-  push:
-    tags:
-      - '*'
+  push
 
 jobs:
   publish:
